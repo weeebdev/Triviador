@@ -1,0 +1,185 @@
+﻿At which year SDU had opened?
+1996
+1991
+1992
+1995
+
+Which of these keywords is used to make a class?
+class
+struct
+int
+none of them
+
+Which of the following is a valid declaration of an object of class Box?
+Box obj = new Box();
+Box obj = new Box;
+obj = new Box();
+new Box obj;
+
+Which of these operators is used to allocate memory for an object?
+new
+old
+alloc
+give
+
+Which of these statement is incorrect?
+Every class must contain a main() method
+There can be only one main() method in a program
+Applets do not require a main() method at all
+main() method must be made public
+
+Which of the following statements is correct?
+Public method is accessible to all other classes in the hierarchy
+Public method is accessible only to subclasses of its parent class
+Public method can only be called by object of its class
+Public method can be accessed by calling object of the public class
+
+What is the return type of a method that does not return any value?
+void
+int
+float
+double
+
+Which of the following is a method having same name as that of it’s class?
+constructor
+final
+delete
+class
+
+What is the process of defining more than one method in a class differentiated by method signature?
+Function overloading
+Function overriding
+Function doubling
+None of the mentioned
+
+Which method can be defined only once in a program?
+main method
+finalize method
+static method
+private method
+
+Which of this statement is incorrect?
+All object of a class are allotted memory for the methods defined in the class
+All object of a class are allotted memory for the all the variables defined in the class
+If a function is defined public it can be accessed by object of other class by inheritation
+main() method must be made public
+
+String in Java is a?
+class
+object
+variable
+character array
+
+Which of these method of String class is used to obtain character at specified index?
+charAt()
+char()
+Charat()
+charat()
+
+Which of these keywords is used to refer to member of base class from a subclass?
+super
+upper
+this
+none of the mentioned
+
+Which of these method of String class can be used to test to strings for equality?
+equals()
+isequal()
+isequals()
+equal()
+
+Which of the following statements are incorrect?
+Strings in java are mutable
+String is a class
+Every string is an object of class String
+Java defines a peer class of String, called StringBuffer, which allows string to be altered
+
+What is the range of short data type in Java?
+-32768 to 32767
+-128 to 127
+-2147483648 to 2147483647
+None of the mentioned
+
+What is the range of byte data type in Java?
+-128 to 127
+-32768 to 32767
+-2147483648 to 2147483647
+None of the mentioned
+
+An expression involving byte, int, and literal numbers is promoted to which of these?
+int
+long
+byte
+float
+
+Which of these literals can be contained in float data type variable?
+-3.4e+038
+-1.7e+308
++1.7e+308
+-3.4e+050
+
+Which data type value is returned by all transcendental math functions?
+double
+int
+float
+long
+
+Which of these can be returned by the operator &?
+Boolean
+Integer
+Character
+Integer or Boolean
+
+Literal can be of which of these data types?
+all of the mentioned
+integer
+float
+boolean
+
+Which of these can not be used for a variable name in Java?
+keyword
+identifier
+identifier & keyword
+none of the mentioned
+
+Which of these is necessary condition for automatic type conversion in Java?
+The destination type is larger than source type
+The destination type is smaller than source type
+The destination type can be larger or smaller than source type
+None of the mentioned
+
+If an expression contains double, int, float, long, then the whole expression will be promoted into which of these data types?
+double
+long
+int
+float
+
+What is Truncation is Java?
+Floating-point value assigned to an integer type
+Integer value assigned to floating type
+Floating-point value assigned to an Floating type
+Integer value assigned to floating type
+
+Which of the following can be operands of arithmetic operators?
+Both Numeric & Characters
+Numeric
+Boolean
+Characters
+
+Modulus operator, %, can be applied to which of these?
+Both Integers and floating – point numbers
+Integers
+Floating – point numbers
+None of the mentioned
+
+Which of these statements are incorrect?
+None of the mentioned
+Assignment operators are more efficiently implemented by Java run-time system than their equivalent long forms
+Assignment operators run faster than their equivalent long forms
+Assignment operators can be used only with numeric and character data type
+
+q1
+a
+b
+c
+d

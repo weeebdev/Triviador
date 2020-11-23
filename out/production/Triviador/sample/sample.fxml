@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+  <children>
+    <SplitPane dividerPositions="0.7037861915367484" focusTraversable="true" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <items>
+        <ScrollPane prefHeight="551.0" prefWidth="579.0">
+          <content>
+            <AnchorPane id="Content" minHeight="-1.0" minWidth="-1.0" prefHeight="574.0" prefWidth="793.0" style="-fx-background-color: gray;">
+              <children>
+                <Label alignment="CENTER" layoutX="14.0" layoutY="14.0" style="&#10;" text="Kazakhstan" textAlignment="CENTER" wrapText="false">
+                           <font>
+                      <Font size="18.0" fx:id="x1" />
+                           </font>
+                           <textFill>
+                      <Color blue="0.624" green="0.624" red="0.624" fx:id="x2" />
+                           </textFill></Label>
+                        <ImageView fitHeight="282.0" fitWidth="575.0" layoutX="7.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@assets/map.png" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="krg" layoutX="282.0" layoutY="234.0" mnemonicParsing="false" onMouseClicked="#krg_act" prefHeight="27.0" prefWidth="54.0" text="KRG" />
+                        <Button fx:id="ala" layoutX="385.0" layoutY="287.0" mnemonicParsing="false" onMouseClicked="#ala_act" text="ALA" />
+                        <Button fx:id="zmb" layoutX="310.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#zmb_act" text="ZMB" />
+                        <Button fx:id="trk" layoutX="275.0" layoutY="341.0" mnemonicParsing="false" onMouseClicked="#trk_act" prefHeight="14.0" prefWidth="33.0" text="TRK">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="kzl" layoutX="193.0" layoutY="287.0" mnemonicParsing="false" onMouseClicked="#kzl_act" text="KZL" />
+                        <Button fx:id="akt" layoutX="140.0" layoutY="222.0" mnemonicParsing="false" onMouseClicked="#akt_act" text="AKT" />
+                        <Button fx:id="mng" layoutX="68.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#mng_act" prefHeight="25.0" prefWidth="44.0" text="MNG" />
+                        <Button fx:id="atr" layoutX="70.0" layoutY="223.0" mnemonicParsing="false" onMouseClicked="#atr_act" prefHeight="16.0" prefWidth="39.0" text="ATR">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="zko" layoutX="59.0" layoutY="185.0" mnemonicParsing="false" onMouseClicked="#zko_act" text="ZKO" />
+                        <Button fx:id="kst" layoutX="211.0" layoutY="160.0" mnemonicParsing="false" onMouseClicked="#kst_act" text="KST" />
+                        <Button fx:id="sko" layoutX="275.0" layoutY="117.0" mnemonicParsing="false" onMouseClicked="#sko_act" prefHeight="17.0" prefWidth="33.0" text="SKO">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="vko" layoutX="412.0" layoutY="210.0" mnemonicParsing="false" onMouseClicked="#vko_act" text="VKO" />
+                        <Button fx:id="pvl" layoutX="351.0" layoutY="161.0" mnemonicParsing="false" onMouseClicked="#pvl_act" prefHeight="18.0" prefWidth="39.0" text="PVL">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="nur" layoutX="287.0" layoutY="160.0" mnemonicParsing="false" onMouseClicked="#nur_act" text="NUR" />
+                        <BorderPane layoutX="-2.0" layoutY="364.0" prefHeight="200.0" prefWidth="519.0" AnchorPane.rightAnchor="276.0">
+                           <left>
+                              <VBox prefHeight="200.0" prefWidth="158.0" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <Label fx:id="p1_nickname" contentDisplay="CENTER" prefHeight="61.0" prefWidth="148.0" text="Player 1" textAlignment="CENTER" textFill="RED">
+                                       <font>
+                                          <Font size="40.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="p1_point" prefHeight="36.0" prefWidth="111.0" text="Player1Point" textFill="RED">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </left>
+                           <right>
+                              <VBox prefHeight="200.0" prefWidth="158.0" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <Label fx:id="p2_nickname" contentDisplay="CENTER" prefHeight="43.0" prefWidth="159.0" text="Player 2" textAlignment="CENTER" textFill="#1e00ff">
+                                       <font>
+                                          <Font size="40.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="p2_point" text="Player2Point" textFill="#3300ff">
+                                       <font>
+                                          <Font size="20.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </right>
+                           <center>
+                              <Text fx:id="turn_text" strokeType="OUTSIDE" strokeWidth="0.0" text="Player 1's turn" wrappingWidth="101.51629638671875" BorderPane.alignment="CENTER">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Text>
+                           </center>
+                        </BorderPane>
+              </children>
+            </AnchorPane>
+          </content>
+        </ScrollPane>
+        <AnchorPane maxHeight="551.0" maxWidth="274.0" prefHeight="551.0" prefWidth="274.0">
+          <children>
+                  <VBox prefHeight="537.0" prefWidth="263.0" spacing="20.0">
+                     <children>
+                  <Label fx:id="round" alignment="CENTER" style="&#10;" text="Question" textAlignment="CENTER" wrapText="false">
+                           <font>
+                              <Font size="18.0" fx:id="x3" />
+                           </font>
+                           <textFill>
+                              <Color blue="0.624" green="0.624" red="0.624" fx:id="x4" />
+                           </textFill>
+                        </Label>
+                        <Text fx:id="questionText" strokeType="OUTSIDE" strokeWidth="0.0" text="Question" textAlignment="CENTER" visible="false" wrappingWidth="264.0" />
+                        <RadioButton fx:id="op1" mnemonicParsing="false" text="RadioButton" visible="false" wrapText="true" />
+                        <RadioButton fx:id="op2" mnemonicParsing="false" text="RadioButton" visible="false" wrapText="true" />
+                        <RadioButton fx:id="op3" mnemonicParsing="false" text="RadioButton" visible="false" wrapText="true" />
+                        <RadioButton fx:id="op4" mnemonicParsing="false" text="RadioButton" visible="false" wrapText="true" />
+                        <Button fx:id="accept" mnemonicParsing="false" onAction="#accept_act" text="Accept" visible="false" />
+                     </children>
+                  </VBox>
+          </children>
+        </AnchorPane>
+      </items>
+    </SplitPane>
+  </children>
+</VBox>

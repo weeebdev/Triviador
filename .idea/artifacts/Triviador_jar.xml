@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Triviador:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Triviador_jar</output-path>
+    <root id="archive" name="Triviador.jar">
+      <element id="module-output" name="Triviador" />
+    </root>
+  </artifact>
+</component>
