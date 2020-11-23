@@ -21,7 +21,7 @@ public class Controller {
     Button city;
     int ques = 0;
     boolean pressed = true;
-    static Quiz quiz=Quiz.loadFromFile("src/sample/assets/Questions.txt");
+    static Quiz quiz=Quiz.loadFromFile("src/sample/assets/law.txt");
     Test question;
     @FXML
     private Font x1;
@@ -125,7 +125,7 @@ public class Controller {
             pane.getChildren().add(winText);
             Scene scene = new Scene(pane,200,200);
 
-            winStage.setTitle("Qupiialy Qazyna");
+            winStage.setTitle("Gravity");
             winStage.setResizable(false);
             winStage.setScene(scene);
             winStage.show();

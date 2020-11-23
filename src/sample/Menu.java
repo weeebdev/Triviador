@@ -67,7 +67,7 @@ public class Menu {
 
 
 
-        primaryStage.setTitle("Qupiialy Qazyna");
+        primaryStage.setTitle("Gravity");
         primaryStage.setResizable(false);
         primaryStage.setScene(new Scene(rootMenu, 800, 600));
         primaryStage.show();
