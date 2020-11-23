@@ -109,7 +109,7 @@ public class Controller {
 
     public void turn(){
         pressed = false;
-        if(Main.counter==30){
+        if(Main.counter==6){
             Stage winStage = new Stage();
             StackPane pane = new StackPane();
             Text winText;
